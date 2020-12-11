@@ -1,2 +1,2 @@
 # Barriers_Development
-Development on barrier islands of Atlantic and Gulf coasts
+Quantify development on the barrier islands of the Atlantic & Gulf Coasts
