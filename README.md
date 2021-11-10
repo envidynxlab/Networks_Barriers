@@ -6,9 +6,9 @@ This repository contains the code and instructions needed to extract the require
 
 ### Directories
 Create the following folder in your working directory:
-* Data: this folder will hold all the required datasets.
+* Data: to hold all the required datasets.
 
-Almost all data files must be downloaded by the user using the provided notebooks and put in the /Data/ directory. Only three .csv files are available for direct download in the "Data" folder of this repository.
+Almost all data files must be downloaded by the user using the provided notebooks and saved in the /Data/ directory. Only three .csv files are available for direct download in the "Data" folder of this repository.
 
 ## Data
 All data used in this project are open source and publicly available. To download the data, run the provided notebooks in the following order, as they rely on data generated in previous notebooks:
@@ -21,10 +21,13 @@ All data used in this project are open source and publicly available. To downloa
  * Roads.ipynb &rightarrow; This notebook downloads drivable road networks from OpenStreetMap using the Python package OSMnx (Boeing, 2017). Detailed installation instructions for OSMnx package are found at https://osmnx.readthedocs.io/en/stable/. For each network node, elevation is retrieved using CUDEM mosaics and matched to the corresponding exceedance probability of extreme water levels. 
 
 ## Analysis
-* Analysis.ipynb &rightarrow; The purpose of this notebook is to identify, for each barrier island, the elevation and exceedance probability of the critical node that causes the failure of the network and the overall robustness of each road network to flood-induced failures. For statistically meaningful metrics of network structure, the analysis is restricted to the 71 US Atlantic and Gulf barrier islands with drivable road networks of at least 100 nodes. In this analysis, network nodes are sequentially removed, starting from the lowest elevation, to mimic a simplified, “bathtub” flooding scenario. As nodes are deactivated, the original network (connected in a large cluster known as the giant-connected component) breaks into smaller unconnected subnetworks until its complete fragmentation. The identification of the critical node that causes the failure of each road network provides an estimation of the flood high necessary to cause the collapse of the network and the probability of occurrence of such an event. Overall network robustness, estimated by systematically measuring the summed size of the giant-connected component during the entire node removal, supplements the analysis by considering the functioning of the network even after the critical node is damaged, which  allows comparisons between barrier island road networks in terms of the entire architecture, vs. solely the elevation (and exceedance) of the single critical node.
+The following notebooks contain the analysis and figures described in the manuscript.
+* Analysis.ipynb &rightarrow; The purpose of this notebook is to identify, for each barrier island, the elevation and exceedance probability of the critical node that causes the failure of the network and the overall robustness of each road network to flood-induced failures. For statistically meaningful metrics of network structure, the analysis is restricted to the 72 US Atlantic and Gulf barrier islands with drivable road networks of at least 100 nodes. This notebook also extracts basic statistics for each of these networks.
+* Figures.ipynb &rightarrow; This notebook generates the figures included in the manuscript.
+* Statistics.ipynb &rightarrow; This notebook contains the queries and statistics included in the manuscript.
 
 ## Requirements
-Disk space: 167 GB 
+Disk space: 175 GB 
 
 Python 3.4.2
 
