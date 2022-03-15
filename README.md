@@ -30,32 +30,37 @@ The following notebooks contain the analysis and figures described in the manusc
 * Figures.ipynb &rightarrow; This notebook generates the figures included in the manuscript.
 * Statistics.ipynb &rightarrow; This notebook contains the queries and statistics included in the manuscript.
 
+### Dataset
+A copy of the dataset (graphml files) used in the paper can be found on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6354814.svg)](https://doi.org/10.5281/zenodo.6354814)
+
+
 ## Requirements
 Disk space: 175 GB 
 
 Python 3.4.2
 
 ### Important Python packages
-contextily 1.1.0,
-fiona 1.8.18,
-gdal 3.2.1,
-geopandas 0.9.0,
-matplotlib 3.4.2,
-matplotlib-inline 0.1.2,
-matplotlib-scalebar 0.7.2,
-networkx 2.5,
-numpy 1.21.0,
-osmnx 1.0.1,
-pandas 1.2.5,
-pycrs 1.0.2,
-rasterio 1.2.6,
-requests 2.25.1,
-seaborn 0.11.1,
-scipy 1.7.0,
-shapely 1.7.1,
-urllib3 1.26.7,
-zipp 3.4.1,
-
+- contextily 1.1.0,
+- fiona 1.8.18,
+- gdal 3.2.1,
+- geopandas 0.9.0,
+- matplotlib 3.4.2,
+- matplotlib-inline 0.1.2,
+- matplotlib-scalebar 0.7.2,
+- networkx 2.5,
+- numpy 1.21.0,
+- osmnx 1.0.1,
+- pandas 1.2.5,
+- pycrs 1.0.2,
+- rasterio 1.2.6,
+- requests 2.25.1,
+- seaborn 0.11.1,
+- scipy 1.7.0,
+- shapely 1.7.1,
+- urllib3 1.26.7,
+- zipp 3.4.1,
 
 ## Contributing
 The code can be slow sometimes, so if anyone knows how to make it faster, please contribute!
