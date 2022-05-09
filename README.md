@@ -2,8 +2,14 @@
 
 This repository contains the code and instructions needed to extract the required data and explore road network robustness to coastal flooding on US Atlantic and Gulf barrier islands.
 
-[![Earth ArXiv Preprint
+Preprint: [![Earth ArXiv Preprint
 DOI](https://img.shields.io/badge/%F0%9F%8C%8D%F0%9F%8C%8F%F0%9F%8C%8E%20EarthArXiv-doi.org%2F10.31223%2FX55D1G-%23FF7F2A)](https://doi.org/10.31223/X55D1G)
+
+OA Paper (Earth's Future): https://doi.org/10.1029/2021EF002581
+
+Code (this repository): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6354835.svg)](https://doi.org/10.5281/zenodo.6354835)
+
+
 
 
 ## Project structure
